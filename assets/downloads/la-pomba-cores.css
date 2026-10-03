@@ -1,0 +1,10 @@
+/* La Pomba — paleta oficial */
+:root{
+  /* degradê principal */
+  --lp-laranja:#FF8A25; --lp-laranja-coral:#FF6238; --lp-coral:#EE3E4F; --lp-magenta:#D41455; --lp-vinho:#B8004B;
+  /* apoio */
+  --lp-pluma:#796590; --lp-lilas:#BFAFCE; --lp-ameixa:#6A3059; --lp-oncinha:#E4962C; --lp-tijolo:#A32528;
+  /* base */
+  --lp-noite:#2A0F1E; --lp-creme:#FBF1E8; --lp-leite:#FFF8F2;
+  --lp-degrade:linear-gradient(90deg,#FF8A25,#FF6238 25%,#EE3E4F 50%,#D41455 75%,#B8004B);
+}

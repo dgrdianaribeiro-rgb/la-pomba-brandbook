@@ -1,0 +1,111 @@
+<header class="capa">
+  <div class="blob" style="width:380px;height:380px;background:#796590;right:-80px;top:-60px"></div>
+  <div class="wrap">
+    <div>
+      <span class="num" aria-hidden="true">03</span>
+      <span class="eyebrow">Capítulo 03</span>
+      <h1>a gina.</h1>
+      <p class="lead">A porta-voz da La Pomba. Curvilínea, vaidosa, debochada e dona de si: a amiga mais experiente que conta tudo sem vergonha.</p>
+      <nav class="sumario-cap" aria-label="Nesta página"><a href="#ficha">ficha</a><a href="#looks">looks</a><a href="#giro">giro 360°</a><a href="#humores">humores</a><a href="#quando">quando usar</a><a href="#com-logo">com a logo</a></nav>
+    </div>
+    <img class="gina-capa sticker" src="/assets/img/gina_buque.png" alt="Gina de boina segurando um buquê">
+  </div>
+</header>
+
+<section class="sec pomba-intro magenta" id="ficha">
+  <div class="wrap">
+    <div class="palco revela"><video src="/assets/video/pomba-animada.mp4" poster="/assets/video/pomba-animada.jpg" autoplay muted loop playsinline aria-label="A Gina animada rindo e depois de boina segurando um buquê"></video></div>
+    <div style="display:grid;gap:22px" class="revela">
+      <span class="eyebrow">Ficha</span>
+      <h2>muito prazer, gina.</h2>
+      <p class="lead">É a amiga que já passou por tudo, conta sem vergonha e sempre tem uma dica guardada na bolsa. Carinhosa com quem chega, debochada com o tabu.</p>
+      <div class="ficha">
+        <p><b>Nome</b>Gina. De vagina, sem vergonha nem no nome.</p><p><b>Estilo</b>Brega-chique</p>
+        <p><b>Jeito</b>Carinhosa e debochada</p><p><b>Papel</b>Guia e porta-voz</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="looks">
+  <div class="wrap">
+    <div class="head revela"><span class="eyebrow">Looks</span><h2 class="h2-menor">dois looks, uma pomba.</h2></div>
+    <div class="grid g2 revela-grupo">
+      <div class="card look"><img src="/assets/img/gina_buque.png" alt="Look assinatura"><div><h3>look assinatura</h3><p style="color:var(--texto)">Boina magenta, óculos gatinho, bolsa com coração.</p><p style="margin-top:8px"><b>Para:</b> logo, campanhas, capas, embalagem.</p></div></div>
+      <div class="card look"><img src="/assets/img/g_frente.png" alt="Look do dia a dia"><div><h3>look do dia a dia</h3><p style="color:var(--texto)">Óculos de coração na cabeça, blusa lilás, calça ameixa.</p><p style="margin-top:8px"><b>Para:</b> stickers, reações, stories, conteúdo educativo.</p></div></div>
+    </div>
+    <div class="fixos revela"><strong>Nunca mudam</strong><span>Lenço de oncinha · brinco dourado · plumagem roxa · cinto de coração · bochechas rosadas</span></div>
+  </div>
+</section>
+
+<section class="sec leite" id="giro">
+  <div class="wrap giro360">
+    <div class="palco-giro revela" tabindex="0" aria-label="Gina girando. Arraste para os lados ou use as setas do teclado">
+      <img src="/assets/img/g_frente.png" alt="Gina de frente"><img src="/assets/img/g_tres4.png" alt="Gina em três quartos"><img src="/assets/img/g_lado_d.png" alt="Gina de perfil direito"><img src="/assets/img/g_costas.png" alt="Gina de costas"><img src="/assets/img/g_lado_e.png" alt="Gina de perfil esquerdo">
+    </div>
+    <div class="revela">
+      <div class="head" style="margin-bottom:22px"><span class="eyebrow">Giro 360°</span><h2 class="h2-menor">a gina de todos os ângulos.</h2>
+        <p class="lead">Arrasta a Gina pros lados (ou usa a barrinha) pra ver ela girar. Mesma altura, mesma linha de pé em todas as vistas.</p></div>
+      <label for="giro-range" style="font-weight:700;font-size:.9rem">vista</label>
+      <input id="giro-range" type="range" min="0" max="4" step="1" value="0">
+      <div class="vistas"><button>frente</button><button>três quartos</button><button>perfil direito</button><button>costas</button><button>perfil esquerdo</button></div>
+      <p style="margin-top:18px;color:var(--texto)">Use as vistas em animações, embalagens que dão a volta e cenas em que ela interage com objetos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="humores">
+  <div class="wrap">
+    <div class="head revela"><span class="eyebrow">Humores</span><h2>cada humor, uma hora certa.</h2><p class="lead">Escolhe o assunto do post e a página mostra quais Ginas combinam.</p></div>
+    <div class="filtros revela" data-filtros="#grade-humores" role="group" aria-label="Filtrar por assunto">
+      <button data-tema="todos" aria-pressed="true">todos</button>
+      <button data-tema="lancamento" aria-pressed="false">lançamento</button>
+      <button data-tema="promocao" aria-pressed="false">promoção</button>
+      <button data-tema="educativo" aria-pressed="false">educativo</button>
+      <button data-tema="autocuidado" aria-pressed="false">autocuidado</button>
+      <button data-tema="comunidade" aria-pressed="false">comunidade</button>
+      <button data-tema="humor" aria-pressed="false">humor</button>
+    </div>
+    <div class="grid g4 revela-grupo" id="grade-humores">
+      <div class="card expr" data-temas="lancamento comunidade"><img src="/assets/img/h_apaixonada.png" alt="" loading="lazy"><h3>apaixonada</h3><p>Lançamentos, datas românticas</p></div>
+      <div class="card expr" data-temas="promocao"><img src="/assets/img/gina_s01.png" alt="" loading="lazy"><h3>em chamas</h3><p>Promoções, “produto quente”</p></div>
+      <div class="card expr" data-temas="educativo"><img src="/assets/img/h_detetive.png" alt="" loading="lazy"><h3>detetive</h3><p>Dicas e segredos</p></div>
+      <div class="card expr" data-temas="educativo humor"><img src="/assets/img/h_chocada.png" alt="" loading="lazy"><h3>chocada</h3><p>Mitos x verdades, novidades</p></div>
+      <div class="card expr" data-temas="autocuidado"><img src="/assets/img/h_dorminhoca.png" alt="" loading="lazy"><h3>dorminhoca</h3><p>“Durma com La Pomba”</p></div>
+      <div class="card expr" data-temas="autocuidado"><img src="/assets/img/h_cafezinho.png" alt="" loading="lazy"><h3>cafezinho</h3><p>“Acorde com La Pomba”</p></div>
+      <div class="card expr" data-temas="lancamento promocao comunidade"><img src="/assets/img/h_celebrando.png" alt="" loading="lazy"><h3>celebrando</h3><p>Sorteios, conquistas</p></div>
+      <div class="card expr" data-temas="promocao"><img src="/assets/img/gina_f22.png" alt="" loading="lazy"><h3>apontando</h3><p>Link, “compre aqui”</p></div>
+      <div class="card expr" data-temas="educativo comunidade"><img src="/assets/img/h_curiosa.png" alt="" loading="lazy"><h3>curiosa</h3><p>Perguntas e enquetes</p></div>
+      <div class="card expr" data-temas="humor educativo"><img src="/assets/img/h_debochada.png" alt="" loading="lazy"><h3>debochada</h3><p>Mitos e tabus</p></div>
+      <div class="card expr" data-temas="comunidade"><img src="/assets/img/h_encantada.png" alt="" loading="lazy"><h3>encantada</h3><p>Depoimentos e elogios</p></div>
+      <div class="card expr" data-temas="lancamento autocuidado"><img src="/assets/img/h_sonhadora.png" alt="" loading="lazy"><h3>sonhadora</h3><p>Lista de desejos</p></div>
+      <div class="card expr" data-temas="comunidade"><img src="/assets/img/h_coracao.png" alt="" loading="lazy"><h3>coração</h3><p>Agradecimentos</p></div>
+      <div class="card expr" data-temas="educativo"><img src="/assets/img/h_lendo.png" alt="" loading="lazy"><h3>lendo</h3><p>Conteúdo educativo, blog</p></div>
+      <div class="card expr" data-temas="promocao comunidade"><img src="/assets/img/h_notebook.png" alt="" loading="lazy"><h3>no notebook</h3><p>Site, frete, atendimento</p></div>
+      <div class="card expr" data-temas="autocuidado"><img src="/assets/img/h_pufe.png" alt="" loading="lazy"><h3>no pufe</h3><p>Autocuidado, fim de semana</p></div>
+      <div class="card expr" data-temas="autocuidado"><img src="/assets/img/h_soneca.png" alt="" loading="lazy"><h3>soneca</h3><p>Pós-prazer, “descansa, mulher”</p></div>
+      <div class="card expr restrita" data-temas="humor"><img src="/assets/img/h_atrevida.png" alt="" loading="lazy"><h3>atrevida</h3><p>Só humor contra tabu. Nunca para cliente.</p></div>
+    </div>
+    <div class="regra revela"><strong>Regra de ouro</strong>Uma Gina por peça, combinando com o assunto. A emoção dela é a emoção que a cliente deve sentir ao ler.</div>
+  </div>
+</section>
+
+<section class="sec colado" id="quando">
+  <div class="wrap grid g2 revela-grupo">
+    <div class="usa" style="background:linear-gradient(160deg,var(--laranja),var(--coral2))"><h3>use quando…</h3><ul>
+      <li>O tema é educativo e precisa de leveza</li><li>For reação, sticker, story ou enquete</li><li>Houver data comemorativa ou campanha</li><li>Na embalagem, cartão e brinde</li><li>No atendimento e nas mensagens automáticas</li></ul></div>
+    <div class="usa" style="background:var(--noite);color:var(--leite)"><h3 style="color:var(--laranja)">evite quando…</h3><ul>
+      <li>O assunto é sério: saúde, violência, consentimento</li><li>Houver produto em uso ou cena explícita</li><li>A intenção for sexualizar a personagem</li><li>For preciso redesenhá-la ou trocar o figurino</li><li>Já houver outra Gina grande na peça</li></ul></div>
+  </div>
+</section>
+
+<section class="sec leite" id="com-logo">
+  <div class="wrap">
+    <div class="head revela"><span class="eyebrow">Gina + logo</span><h2 class="h2-menor">pomba + logo.</h2></div>
+    <div class="grid g3 revela-grupo">
+      <div class="card fam"><img src="/assets/img/la_mascote.png" alt=""><h3>na janela do “a”</h3><p>Único lugar onde ela entra dentro das letras.</p></div>
+      <div class="card fam"><img src="/assets/img/gina_f00.png" alt=""><h3>lado a lado</h3><p>Recortada, sem borda, respeitando a área de proteção.</p></div>
+      <div class="card fam"><img src="/assets/img/lp_boina.png" alt=""><h3>só a boina</h3><p>Quando não cabe a personagem inteira.</p></div>
+    </div>
+  </div>
+</section>
